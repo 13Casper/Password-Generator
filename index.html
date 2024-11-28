@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Parkinsans&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,19 +19,17 @@
           Generate a secure <br />
           <span> random password</span>
         </h1>
-        <p>
-          In just one click, get 4 random and secure passwords for all your
-          accounts
-        </p>
-        <input type="number" placeholder="Num of characters " />
-        <button>Generate Password</button>
+        <div id="input-button">
+          <input type="number" placeholder="10 " />
+          <button>Generate Password</button>
+        </div>
       </div>
       <div id="line"></div>
       <div id="second-section">
-        <div><p>1</p></div>
-        <div><p>2</p></div>
-        <div><p>3</p></div>
-        <div><p>4</p></div>
+        <div><p></p></div>
+        <div><p></p></div>
+        <div><p></p></div>
+        <div><p></p></div>
       </div>
     </div>
     <script src="script.js"></script>

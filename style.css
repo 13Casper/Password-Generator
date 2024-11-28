@@ -5,13 +5,14 @@
 }
 
 body{
-    background-color: #252525;
+    background-color: #142d4c;
+    font-family: 'parkinsans';
 }
 
 #app{
     width: 70%;
     height: 70%;
-    background-color: #5D0E41;
+    background-color: #385170;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -19,9 +20,79 @@ body{
     right: 0;
     margin: auto;
     border-radius: 15px;
-    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    padding: 20px;
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+span{
+    font-size: 2.7rem;
+    color: #ad0057;
+    margin-left: 15%;
+}
+
+#input-button{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+input{
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    /* margin-left: 30px; */
+}
+
+button{
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ad0057;
+    border: none;
+    transition: 0.5s;
+    font-size: 1.1rem;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#line {
+    width: 85%;
+    background-color: #142d4c;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#second-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#second-section div{
+    width: 85%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #142d4c;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
 }

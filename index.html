@@ -15,21 +15,21 @@
   <body>
     <div id="app">
       <div id="first-section">
-        <h1>
+        <h1 id="title">
           Generate a secure <br />
           <span> random password</span>
         </h1>
         <div id="input-button">
-          <input type="number" placeholder="10 " />
-          <button>Generate Password</button>
+          <input type="number" placeholder="10" id="input-el" />
+          <button onclick="generatePassword()">Generate Password</button>
         </div>
       </div>
       <div id="line"></div>
       <div id="second-section">
-        <div><p></p></div>
-        <div><p></p></div>
-        <div><p></p></div>
-        <div><p></p></div>
+        <div><p id="password1-el"></p></div>
+        <div><p id="password2-el"></p></div>
+        <div><p id="password3-el"></p></div>
+        <div><p id="password4-el"></p></div>
       </div>
     </div>
     <script src="script.js"></script>
